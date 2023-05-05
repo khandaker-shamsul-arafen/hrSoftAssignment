@@ -87,7 +87,7 @@ class _StudentDetailsCard extends State<StudentDetailsCard> {
               ),
               AppWidgets().gapW8(),
               CustomizeDropDown(
-                height: 35.h,
+                height: 45.h,
                 width: 100.w,
                 items: data.adults.toList(),
                 selectedValue: data.selectedAdultDropDownValue.value,
